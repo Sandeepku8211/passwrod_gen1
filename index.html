@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://kit.fontawesome.com/688f486d19.js" crossorigin="anonymous"></script>
+<body>
+
+
+    <div class="contaienr">
+        <h1>PASSWORD GENRATERO</h1>
+        <div>
+            <input readonly  class="" placeholder="passowrd">
+          <button onclick="" > 
+            <span data-copyMsg> <i class="fa-regular fa-copy"></i></span>
+        </button>
+        </div>
+       <div>
+        <div class="inputcontianer">
+            <h3>lenth of passowrd</h3>
+            <span data-lengthNumber>
+                0
+            </span>
+        </div>
+        <input type="range" min="5" max="20" class="slider" step="1" data-lengthslider>
+       </div>
+            <div>
+                
+                <div>
+                    <input type="checkbox" name="" id="Uppercase">
+                <label for="Uppercase">Include Uppercase Letter</label>
+                </div>
+                <br />
+           
+                <div> <input type="checkbox" name="" id="LowerCase">
+                    <label for="LowerCase"> Include LowerCase Letter</label></div> <br />
+                    <div>
+                        <input type="checkbox" name="Number" id="Number">
+                        <label for="">
+                            Include Number
+            
+                        </label>
+                    </div>
+            <br />
+           <div>
+            <input type="checkbox" name="symbol" id="symbol">
+            <label for="">include symbol</label>
+           </div>
+            </div>
+            <div class="Strength-container">
+                <h3>Strength</h3>
+                <div data-indicator></div>
+                
+            </div>
+            <button type="button" class="generatebutton">GENRATER PASSWORD</button>
+        
+    
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
